@@ -19,7 +19,6 @@ def diagnosis(file):
     with col1:
         st.write(' ')
 
-    with col2:
         st.markdown("<h1 style='text-align: center; color: black;'>Diagnosis Picture</h1>", unsafe_allow_html=True)
     # Download image with mahotas
         image = mh.imread(file)
