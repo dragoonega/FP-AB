@@ -36,7 +36,7 @@ def diagnosis(file):
     ##YOUR CODE GOES HERE##
         plt.imshow(image)
         plt.savefig("diagpic.png")
-        st.image("diagpic.png" ,caption= "X- Ray Diagnosis Picture" , channels="RGB", width=500)
+        st.image("diagpic.png" ,caption= "X- Ray Diagnosis Picture" , channels="RGB", width=400)
     
 
     # Load model  
