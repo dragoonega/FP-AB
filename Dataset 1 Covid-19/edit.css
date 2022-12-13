@@ -1,0 +1,28 @@
+.small-box {
+    max-width: 400px;
+}
+
+.dark-box {
+    background-color: #333333;
+    color: white;
+}
+
+.square-box {
+    max-width: 500px;
+    min-height: 500px;
+    border: 1px solid #333;
+}
+#text {
+    color: white;
+}
+body{
+    background-color:dimgrey
+}
+
+section {
+    align-items: center;
+    padding-left: 70px;
+}
+button {
+    padding-left: 1500px;
+}

@@ -1,6 +1,0 @@
-matplotlib
-streamlit
-numpy
-mahotas
-keras
-tensorflow

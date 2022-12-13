@@ -8,7 +8,7 @@ from keras.models import model_from_json
 st.title('Final Project AB - Kelompok 3')
 
 # label for machine and set file uploader in streamlit
-lab = {'Viral Pneumonia': 0, 'Covid': 1, 'Normal': 2}
+lab = {'Covid': 0, 'Normal': 1, 'Viral Pneumonia': 2}
 diagpic = st.file_uploader("Please Upload the X-Ray Diagnosis File", type=["jpg", "png", "jpeg"])
 
 
