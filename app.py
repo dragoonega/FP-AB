@@ -16,6 +16,9 @@ def diagnosis(file):
     IMM_SIZE = 224
     col1, col2, col3 = st.columns(3)
 
+    with col1:
+        st.write('')
+
     with col2:
         st.markdown("<h1 style='text-align: center; color: black;'>Diagnosis Picture</h1>", unsafe_allow_html=True)
     # Download image with mahotas
@@ -62,7 +65,7 @@ def diagnosis(file):
         predictions = predictions.reshape(1,-1)[0]
         
     with col3:
-        st.write(' ')
+        st.write('')
 
     # Find the name of the diagnosis  
     ##YOUR CODE GOES HERE##
