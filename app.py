@@ -6,7 +6,7 @@ from keras.models import model_from_json
 
 
 st.title('Final Project AB - Kelompok 3')
-
+st.header("Covid-19 and Pneunomia Diagnose with Machine Learning")
 # label for machine and set file uploader in streamlit
 lab = {'Covid': 0, 'Normal': 1, 'Viral Pneunomia': 2}
 diagpic = st.file_uploader("Please Upload the X-Ray Diagnosis File", type=["jpg", "png", "jpeg"])
@@ -78,4 +78,4 @@ if diagpic is None:
     st.text("Please upload an image file")
 else:
    st.text(diagnosis(diagpic))
-    
+   st.success("your picture has been diagnosed!")
